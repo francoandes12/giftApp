@@ -13,8 +13,9 @@ const AddCategory = ({ setCategories }) => {
     }
   }
   return (
-    <form onSubmit={handleSubmit}>
+    <form onSubmit={handleSubmit} className='formulario'>
       <input type='text' value={inputValue} onChange={handleInputChange} />
+      <button type='submit'>Buscar</button>
     </form>
   )
 }
