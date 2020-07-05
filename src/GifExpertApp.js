@@ -14,7 +14,6 @@ const GifExpertApp = () => {
           <GifGrid key={category} category={category} />
         ))}
       </ol>
-      <hr id='separador' />
     </>
   )
 }
